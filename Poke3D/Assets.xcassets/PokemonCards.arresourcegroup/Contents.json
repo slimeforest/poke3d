@@ -1,0 +1,26 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "Beedrill-card.arreferenceimage"
+    },
+    {
+      "filename" : "Charmander-card.arreferenceimage"
+    },
+    {
+      "filename" : "Charmeleon-card.arreferenceimage"
+    },
+    {
+      "filename" : "Haunter-card.arreferenceimage"
+    },
+    {
+      "filename" : "Onix-card.arreferenceimage"
+    },
+    {
+      "filename" : "Pikachu-card.arreferenceimage"
+    }
+  ]
+}
