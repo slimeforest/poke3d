@@ -13,6 +13,11 @@
 		C321526327712ADA00E6CC16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C321526127712ADA00E6CC16 /* Main.storyboard */; };
 		C321526527712ADD00E6CC16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C321526427712ADD00E6CC16 /* Assets.xcassets */; };
 		C321526827712ADD00E6CC16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C321526627712ADD00E6CC16 /* LaunchScreen.storyboard */; };
+		C369FD2E277E493900DFD9A6 /* DisplayPokedexVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C369FD2D277E493900DFD9A6 /* DisplayPokedexVideo.swift */; };
+		C369FD30277E4ADE00DFD9A6 /* DeterminePokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C369FD2F277E4ADE00DFD9A6 /* DeterminePokemon.swift */; };
+		C385D1C627728467007B786C /* Pikachu.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C385D1C327728467007B786C /* Pikachu.mp4 */; };
+		C385D1C727728467007B786C /* Charmander.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C385D1C427728467007B786C /* Charmander.mp4 */; };
+		C385D1C827728467007B786C /* Beedrill.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C385D1C527728467007B786C /* Beedrill.mp4 */; };
 		C39DEAE72775333200D683E1 /* Render3dPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39DEAE62775333200D683E1 /* Render3dPokemon.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +29,11 @@
 		C321526227712ADA00E6CC16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C321526427712ADD00E6CC16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C321526727712ADD00E6CC16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C369FD2D277E493900DFD9A6 /* DisplayPokedexVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPokedexVideo.swift; sourceTree = "<group>"; };
+		C369FD2F277E4ADE00DFD9A6 /* DeterminePokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeterminePokemon.swift; sourceTree = "<group>"; };
+		C385D1C327728467007B786C /* Pikachu.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Pikachu.mp4; path = ../../../../../Downloads/Pikachu.mp4; sourceTree = "<group>"; };
+		C385D1C427728467007B786C /* Charmander.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Charmander.mp4; path = ../../../../../Downloads/Charmander.mp4; sourceTree = "<group>"; };
+		C385D1C527728467007B786C /* Beedrill.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Beedrill.mp4; path = ../../../../../Downloads/Beedrill.mp4; sourceTree = "<group>"; };
 		C39DEAE62775333200D683E1 /* Render3dPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Render3dPokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +67,9 @@
 		C321525A27712ADA00E6CC16 /* Poke3D */ = {
 			isa = PBXGroup;
 			children = (
+				C385D1C527728467007B786C /* Beedrill.mp4 */,
+				C385D1C427728467007B786C /* Charmander.mp4 */,
+				C385D1C327728467007B786C /* Pikachu.mp4 */,
 				C321525B27712ADA00E6CC16 /* AppDelegate.swift */,
 				C321525D27712ADA00E6CC16 /* art.scnassets */,
 				C39DEAE327752E6100D683E1 /* Models */,
@@ -72,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				C39DEAE62775333200D683E1 /* Render3dPokemon.swift */,
+				C369FD2F277E4ADE00DFD9A6 /* DeterminePokemon.swift */,
+				C369FD2D277E493900DFD9A6 /* DisplayPokedexVideo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -152,7 +167,10 @@
 			files = (
 				C321525E27712ADA00E6CC16 /* art.scnassets in Resources */,
 				C321526827712ADD00E6CC16 /* LaunchScreen.storyboard in Resources */,
+				C385D1C827728467007B786C /* Beedrill.mp4 in Resources */,
 				C321526527712ADD00E6CC16 /* Assets.xcassets in Resources */,
+				C385D1C627728467007B786C /* Pikachu.mp4 in Resources */,
+				C385D1C727728467007B786C /* Charmander.mp4 in Resources */,
 				C321526327712ADA00E6CC16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +183,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C321526027712ADA00E6CC16 /* ViewController.swift in Sources */,
+				C369FD30277E4ADE00DFD9A6 /* DeterminePokemon.swift in Sources */,
+				C369FD2E277E493900DFD9A6 /* DisplayPokedexVideo.swift in Sources */,
 				C39DEAE72775333200D683E1 /* Render3dPokemon.swift in Sources */,
 				C321525C27712ADA00E6CC16 /* AppDelegate.swift in Sources */,
 			);

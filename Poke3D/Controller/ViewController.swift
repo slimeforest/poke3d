@@ -13,7 +13,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     @IBOutlet var sceneView: ARSCNView!
     let pokeRenderer = Render3dPokemon()
-    
+    let pokeBrain = DeterminePokemon()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -84,20 +84,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             
             node.addChildNode(planeNode)
             
-            switch imageAnchor.referenceImage.name {
-            case "Charmander-card":
-                print("Charmander detected")
-                pokeRenderer.renderPokemon(name: "Charmander", planeNode: planeNode, anchor: imageAnchor)
-                
-                
-            default:
-                print("Card not detected")
-            }
+            pokeBrain.checkCard(cardDetected: imageAnchor.referenceImage.name!, node: planeNode, detectedAnchor: imageAnchor, baseNode: node)
+            
         }
         return node
     }
 }
-
-
-
-

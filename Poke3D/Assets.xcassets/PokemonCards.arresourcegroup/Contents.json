@@ -5,22 +5,22 @@
   },
   "resources" : [
     {
-      "filename" : "Beedrill-card.arreferenceimage"
+      "filename" : "Beedrill.arreferenceimage"
     },
     {
-      "filename" : "Charmander-card.arreferenceimage"
+      "filename" : "Charmander.arreferenceimage"
     },
     {
-      "filename" : "Charmeleon-card.arreferenceimage"
+      "filename" : "Charmeleon.arreferenceimage"
     },
     {
-      "filename" : "Haunter-card.arreferenceimage"
+      "filename" : "Haunter.arreferenceimage"
     },
     {
-      "filename" : "Onix-card.arreferenceimage"
+      "filename" : "Onix.arreferenceimage"
     },
     {
-      "filename" : "Pikachu-card.arreferenceimage"
+      "filename" : "Pikachu.arreferenceimage"
     }
   ]
 }
